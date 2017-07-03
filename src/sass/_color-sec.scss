@@ -11,6 +11,7 @@
   }
   &__linea--gris{
     background-color: $grisObscuro !important;
+    @include linea;
   }
   &__division{
     clear:both;
