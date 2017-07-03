@@ -1,10 +1,14 @@
-@import 'columnas';
-@import 'color';
-@import 'fonts';
-@import 'header';
-@import 'color-sec';
-@import 'verde';
-@import 'precios';
-@import 'contactos';
-@import 'footer';
-@import 'about';
+@import 'mixin' ;
+@import 'columnas' ;
+@import 'color' ;
+@import 'fonts' ;
+@import 'header' ;
+@import 'color-sec' ;
+@import 'verde' ;
+@import 'precios' ;
+@import 'contacto' ;
+@import 'footer' ;
+@import 'about-us' ;
+body{
+  min-height: 100vh;
+}

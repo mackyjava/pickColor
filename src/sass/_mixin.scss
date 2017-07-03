@@ -9,3 +9,11 @@
   flex-direction: row;
   justify-content: space-around;
 }
+@mixin linea{
+  padding: 0.03em;
+  background-color: $blanco;
+}
+@mixin parrafo{
+  font-size: 1em;
+  font-family:$codensed
+}
