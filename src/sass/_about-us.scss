@@ -34,3 +34,38 @@ background-color: $azul;
 	}
 
  }
+
+.contenedor-barra{
+	padding: 2%;
+	&__base{
+		background-color: darkgray;
+		height: 8px;
+		width: 350px;
+	&--rellenoHTML{
+		background-color:$naranja;
+		height: 8px;
+		width: 340px;
+		}
+	&--rellenoCSS{
+		background-color:$naranja;
+		height: 8px;
+		width: 330px;
+		}
+	&--rellenoJS{
+		background-color:$naranja;
+		height: 8px;
+		width: 240px;
+		}
+	&--rellenoPHP{
+		background-color:$naranja;
+		height: 8px;
+		width: 270px;
+		}
+		&--rellenoPHOTO{
+		background-color:$naranja;
+		height: 8px;
+		width: 300px;
+		}
+	}
+	
+}
