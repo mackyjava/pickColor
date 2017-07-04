@@ -12,7 +12,8 @@
   }
   &__linea{
     @include linea ;
-    @extend .col-1 ;
+    @extend .col-2 ;
+    margin-bottom: .5em;
 
   }
   &__descripcion{
