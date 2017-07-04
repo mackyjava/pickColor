@@ -9,27 +9,28 @@
       rel="stylesheet">
 </head>
 <body>
-<div class="header">
+<div>
 <div class="row navbar">
- <div class="logo col-4">
- 	<img src="assets/img/logo.png">
- </div>
- <div class="links col-8">
- 	<ul>
- 	<li>About</li>
- 	<li>Service </li>
- 	<li>Team</li>
- 	<li>Price</li>
- 	<li>Clients</li>
- 	<li>Facts</li>
- 	<li>Contact</li>
+<div class="col-12">
+ <div class="navbar__logo">
+ 	<img class="col-1" src="assets/img/logo.png">
+ 	<ul class="navbar__list col-9 col-2-offset">
+ 	<li class="navbar__link">About</li>
+ 	<li class="navbar__link">Service </li>
+ 	<li class="navbar__link">Team</li>
+ 	<li class="navbar__link">Price</li>
+ 	<li class="navbar__link">Clients</li>
+ 	<li class="navbar__link">Facts</li>
+ 	<li class="navbar__link">Contact</li>
  	</ul>
  </div>
- <div class="row">
+ </div>
+ </div>
+ <div class="row ">
  <div class="col-12 home">
- <img src="assets/img/carousel-bg.jpg">
-   <h1>BEAUTIFUL COLOR PALETTES FOR YOUR <br>NEXT WEB PROJECT</h1>
-   <h6>Choosing the right color scheme is essentisl to your website´s success. Your layout and <br> other designs choices- including font - should be developed in concert with your color<br> scheme to ensure readability, cohesiveness and beauty in the final product. </h6>
+ <img class="home__img--resize" src="assets/img/carousel-bg.jpg">
+   <h1 class="home__title">BEAUTIFUL COLOR PALETTES FOR YOUR <br>NEXT WEB PROJECT</h1>
+   <h6 class="home__subtitle">Choosing the right color scheme is essentisl to your website´s success. Your layout and <br> other designs choices- including font - should be developed in concert with your color<br> scheme to ensure readability, cohesiveness and beauty in the final product. </h6>
  </div>
  </div>
  </div>
@@ -497,45 +498,46 @@
 	</div>
 </div>
 
-<div class="footer row">
-  <div class="iconos col-10">
-  	<span><img src="assets/img/icons/facebook-logo.png"></span>
-  	<span><img src="assets/img/icons/twitter-sign.png"></span>
-  	<span><img src="assets/img/icons/linkedin-logo.png"></span>
-  	<span><img src="assets/img/icons/pinterest.png"></span>
-  	<span><img src="assets/img/icons/google-plus.png"></span>
-  	<span><img src="assets/img/icons/tumblr-logo.png"></span>
-  	<span><img src="assets/img/icons/instagram.png"></span>
+<div class="row">
+  <div class="footer col-12">
+   <div class="iconos">
+  	<img class="iconos__img" src="assets/img/icons/facebook-logo.png">
+  	<img  class="iconos__img" src="assets/img/icons/twitter-sign.png">
+  	<img  class="iconos__img" src="assets/img/icons/linkedin-logo.png">
+  	<img  class="iconos__img" src="assets/img/icons/pinterest.png">
+  	<img  class="iconos__img" src="assets/img/icons/google-plus.png">
+  	<img  class="iconos__img" src="assets/img/icons/tumblr-logo.png">
+  	<img  class="iconos__img" src="assets/img/icons/instagram.png">
+  </div>
   </div>
   </div>
   <div class="info-footer">
-  <div class="col-1"></div>
-
-  	<div class="col-3">
-  	  <h6>Visit Us</h6>
-  	  <ul>
-  	    <li ><hr></li>
+  	<div class="col-3 col-1-offset">
+  	  <h6 class="info-footer__title">Visit Us</h6>
+  	  <ul class="info-footer__list">
+  	    <li class="info-footer__link--separator" ><hr></li>
   	  	<li><i class="material-icons">near_me</i>Lorem Ipsum Street</li>
   	  	<li><i class="material-icons">location_on</i>68123 Mannheim</li>
   	  	<li><i class="material-icons">flag</i>Germany</li>
   	  </ul>
   	</div>
   	<div class="col-3">
-  	  <h6>Write Us</h6>
-  	  <ul>
-  	    <li ><hr></li>
-  	  	<li><i class="material-icons">phone</i>+49 621 123 321 123</li>
-  	  	<li><i class="material-icons">mail_outline</i>info@fabianbentz.de</li>
-  	  	<li><i class="material-icons">print</i>+49 621 123 321 124</li>
+  	  <h6 class="info-footer__title">Write Us</h6>
+  	  <ul class="info-footer__list">
+  	    <li class="info-footer__link--separator"><hr></li>
+  	  	<li class="info-footer__link"><i class="material-icons">phone</i>+49 621 123 321 123</li>
+  	  	<li class="info-footer__link"><i class="material-icons">mail_outline</i>info@fabianbentz.de</li>
+  	  	<li class="info-footer__link"><i class="material-icons">print</i>+49 621 123 321 124</li>
   	  </ul>
   	</div>
   	<div class="col-3">
-  		<h6>Newsletter</h6>
-  		<hr class="col-2">
-  		<br>
-  		<br>
-  		<span class="correo"><i class="material-icons">mail_outline</i></span><input type="text" name=""><br>
-  		<button>Subscribe Now!</button>
+  		<h6 class="info-footer__title">Newsletter</h6>
+  		<ul class="info-footer__list">
+  		<li class="info-footer__link--separator"><hr></li>
+  		
+  		<li class="info-footer__link"><span class="info-footer__link__i"><i class="material-icons">mail_outline</i></span><input class="info-footer__link__input" type="text" name=""></li>
+  		<li class="info-footer__link"><button class="info-footer__link__button">Subscribe Now!</button></li>
+  		</ul>
   	</div>
 </div>
 </div>
